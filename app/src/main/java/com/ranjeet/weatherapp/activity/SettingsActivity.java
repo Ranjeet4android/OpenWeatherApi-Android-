@@ -45,7 +45,8 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
         Toolbar bar = (Toolbar) LayoutInflater.from(this).inflate(R.layout.toolbar_settings, root, false);
         root.addView(bar, 0); // insert at top
 
-        bar.setNavigationIcon(R.drawable.abc_ic_ab_back_mtrl_am_alpha);
+       // bar.setNavigationIcon(R.drawable.ic_menu);
+        bar.setNavigationIcon(R.drawable.back);
         bar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

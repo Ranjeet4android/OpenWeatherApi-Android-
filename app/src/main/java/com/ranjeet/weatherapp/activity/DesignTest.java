@@ -28,7 +28,7 @@ public class DesignTest extends AppCompatActivity {
         mToolbar.setLogo(R.drawable.ic_place);
         ScrollView = (ScrollView) findViewById(R.id.scroll_view);
         ScrollView.setOverScrollMode(View.OVER_SCROLL_NEVER);
-        mToolbar.setNavigationIcon(R.drawable.abc_ic_ab_back_mtrl_am_alpha);
+        mToolbar.setNavigationIcon(R.drawable.back);
         mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
